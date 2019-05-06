@@ -855,6 +855,3 @@ class Game:
 
         dispatcher.add_handler(MessageHandler(Filters.text, self.__answer))
         dispatcher.add_error_handler(self.__error)
-        # TODO: add random talk
-
-# todo: прописать нормальный логгер вместо принтов
